@@ -1,0 +1,144 @@
+        @import url('http://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900$display:swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #111;
+            color: #fff;
+        }
+        
+        .service {
+            padding: 30px 0;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        .max-width {
+            max-width: 1300px;
+            padding: 0 45px;
+            margin: auto;
+        }
+        
+        .max-width h1,
+        h2 {
+            text-align: center;
+            position: relative;
+            font-size: 40px;
+            font-weight: 500;
+            margin-bottom: 60px;
+            padding-bottom: 20px;
+        }
+        
+        h2 {
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        .max-width h2::after {
+            content: '';
+            position: absolute;
+            width: 170px;
+            height: 2px;
+            background: #fff;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .max-width h1::after {
+            content: '';
+            position: absolute;
+            width: 170px;
+            height: 2px;
+            background: #fff;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .card {
+            padding: 30px 20px;
+            width: calc(26% - 20px);
+            border-radius: 6px;
+            background: #222;
+            text-align: center;
+            user-select: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            background-color: #dc143d
+        }
+        
+        .box {
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover .box {
+            transform: scale(1.05);
+        }
+        
+        .box i {
+            font-size: 50px;
+            color: #dc143c;
+            transition: color 0.3s ease;
+        }
+        
+        .card:hover .box i {
+            color: #fff;
+        }
+        
+        .box h3 {
+            font-size: 20px;
+            padding: 10px 0 7px;
+        }
+        
+        .contactus {
+            width: 500px;
+            background-color: #fff;
+            box-shadow: 0 0 20px 0 #dc143c;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+        
+        form {
+            margin: 20px;
+        }
+        
+        .input-field {
+            width: 400px;
+            height: 40px;
+            margin-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border: 1px solid #222;
+            border-radius: 10px;
+            outline: none;
+        }
+        
+        .text-area {
+            height: 80px;
+            padding-top: 10px;
+        }
+        
+        .btn {
+            border-radius: 10px;
+            background: #dc143c;
+            color: #fff;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
